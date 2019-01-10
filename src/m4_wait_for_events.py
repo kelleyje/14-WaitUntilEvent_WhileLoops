@@ -34,6 +34,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 """  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import math
+import time
 
 
 def main():
@@ -365,6 +366,18 @@ def prime_gap(m):
             else:
                 note = mono
         mono += 1
+
+    # note = 2
+    # mono = 2
+    #
+    # while True:
+    #     for x in range(m-1):
+    #         if is_prime(mono + x + 1):
+    #             note += x + 1
+    #             break
+    #     if note == mono:
+    #         return note
+    #     mono = note
 
 
 def run_test_wait_for_sum_of_cubes():
